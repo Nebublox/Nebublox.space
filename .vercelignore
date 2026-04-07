@@ -1,0 +1,13 @@
+# Excludes
+node_modules
+.next
+.env*.local
+*.log
+.DS_Store
+.vercel
+.git
+plugins
+*.backup
+*.tsx.backup
+rbx-studio-mcp-installer.exe
+hero_audio.mp3

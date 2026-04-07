@@ -1,0 +1,1110 @@
+[
+  {
+    "name": "src",
+    "type": "directory",
+    "mode": 16749,
+    "children": [
+      {
+        "name": ".agent",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "tasks",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "codeforge-cleanup.md",
+                "type": "file",
+                "mode": 33206,
+                "uid": "46fb004a782c845d1ffb7d78670b9586ee9750f8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": ".env",
+        "type": "file",
+        "mode": 33206,
+        "uid": "d8b6b2966254d6e5898a0b17d071425df12b966e"
+      },
+      {
+        "name": ".env.check",
+        "type": "file",
+        "mode": 33206,
+        "uid": "b03f948ab84bd6838747cc7ab2ce5b9cdcae1753"
+      },
+      {
+        "name": ".env.example",
+        "type": "file",
+        "mode": 33206,
+        "uid": "ac103d281e323d582a654baf762b1d16076b44f8"
+      },
+      {
+        "name": ".eslintrc.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "21a19e516304220b54cc6dd9e75892ec21488a8a"
+      },
+      {
+        "name": ".vercelignore",
+        "type": "file",
+        "mode": 33206,
+        "uid": "2c17c9b68f6cd2c75fa7b6c944dde8e9d1e79f07"
+      },
+      {
+        "name": ".vscode",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "settings.json",
+            "type": "file",
+            "mode": 33206,
+            "uid": "a2d95a91137a747ebab916a646843b5cd92f60ec"
+          }
+        ]
+      },
+      {
+        "name": "README.md",
+        "type": "file",
+        "mode": 33206,
+        "uid": "2aa13170a21ba96c94bc4b282b03616ae7371b96"
+      },
+      {
+        "name": "app",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "api",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "auth",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "verify",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "route.ts",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "0ec6350d5c52f96d98a0354211e7ed430dccde81"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "oauth",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "discord",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "callback",
+                        "type": "directory",
+                        "mode": 16749,
+                        "children": [
+                          {
+                            "name": "route.ts",
+                            "type": "file",
+                            "mode": 33206,
+                            "uid": "1f69c517107a2c7e489082badb2eebdf37375ba6"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "components",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "BlackHoleBackground.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a36c316f38651473e268cdd34a72fcacb6a502a0"
+              },
+              {
+                "name": "BlackHoleLogo.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "6e02689b2a78a966437b343b3f2fdec33e05d2a5"
+              },
+              {
+                "name": "BootOverlay.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b89fbc5f2a4eb1671b62cd27c3d9a9f67f713f7e"
+              },
+              {
+                "name": "BootSequence.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "bd9e083d5cc35146a74e0b2983415e3fc4c25ee3"
+              },
+              {
+                "name": "CinematicHero.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9bf42493756b2669ca553d55b9183443d508ba10"
+              },
+              {
+                "name": "CosmicHUD.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "4bdc7dd976ec4e50288d900ad70c35af48a3f0e7"
+              },
+              {
+                "name": "DashboardSidebar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "d687905d37700035ef645766bae80e9322f36535"
+              },
+              {
+                "name": "ExecutionPipeline.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "61282ce8f3054bc28103c8bf1c4887b6f9c76452"
+              },
+              {
+                "name": "ExecutorTicker.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "8cbf490674a1d176e103ab4e7bf112dd7afc53ea"
+              },
+              {
+                "name": "FloatingParticles.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "5a499d75cdd46012eed027e69ef73bee858e5bce"
+              },
+              {
+                "name": "Footer.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7a6f1d2448638678525ca8c880b7a760e556fd9f"
+              },
+              {
+                "name": "GravityWell.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "096898797a09ae273914ea57300bbd7019ca9a0e"
+              },
+              {
+                "name": "HologramAssistant.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "5e6312d4feb6a1ecf31466e095eed670dfbc8753"
+              },
+              {
+                "name": "LegalModal.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "3e6b46156cf2d1b7b0f1869992d8bec5409e2077"
+              },
+              {
+                "name": "LiveTelemetry.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ba08b6a78d50b602b76015659fdf66bb746d8996"
+              },
+              {
+                "name": "Navbar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "241210eaaa00a9cc6434b0c1363dc5116b7b2a92"
+              },
+              {
+                "name": "NebulaBackground.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b8e6cc9a2c80c882b855c443e2694eb583967876"
+              },
+              {
+                "name": "ParticleCanvas.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c181c01cd9b58b3799a07cec1c9ebb521dc73765"
+              },
+              {
+                "name": "Particles.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "2d382d99b48d9772108c3dced207ee98e3511931"
+              },
+              {
+                "name": "PromptComparison.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "008adceb5e77075cddd623c7f53c6684fa364130"
+              },
+              {
+                "name": "PuterScript.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "5c5602650f1aebc101be40cd89860d232d9ebde9"
+              },
+              {
+                "name": "ScriptCard.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "fc44aa27bbf4d635f1b7d09dfd24b4011148cf82"
+              },
+              {
+                "name": "ScriptsGrid.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "3b10651eb630b8ee132084f91f6d5a15dcae58b7"
+              },
+              {
+                "name": "SecurityClearance.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b2a639953f6d21cadd702d849a43621068fb7fc4"
+              },
+              {
+                "name": "SupportModal.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "6127d4a5bb4f44dbbc5af279d8e4dfc814e42cc3"
+              },
+              {
+                "name": "SystemFooter.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9494dfe5676773a747b47304a9a5cdd71306f1a3"
+              },
+              {
+                "name": "TechSpecs.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "3884b66256e54e4bf2a4931fec351d460222d007"
+              },
+              {
+                "name": "VerticalWorkflowTimeline.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "de167fbbb03a5542a8803117a73df688fe88f3d4"
+              },
+              {
+                "name": "VoidArtifacts.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "edb546629e966ac9bc75a840e72bed2757876a02"
+              },
+              {
+                "name": "WarpedGrid.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "1c8ac9531269be2c42fab098dc883311ecef1f75"
+              }
+            ]
+          },
+          {
+            "name": "getkey",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9b17c06d678f3566472bf204ba9071897dbc48af"
+              }
+            ]
+          },
+          {
+            "name": "globals.css",
+            "type": "file",
+            "mode": 33206,
+            "uid": "72b809dc9722ddf4a79eb4f63b674481e8da7a20"
+          },
+          {
+            "name": "icon.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "3dc4667c2f997409b440b52ea32847ac7cfa2650"
+          },
+          {
+            "name": "layout.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "ba4d6d9f19e5d815ef165ec3fb7f42fd8d038529"
+          },
+          {
+            "name": "legal",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "1fe177ca8d49c0cf3fb8d0ae564fbd053a89fd01"
+              }
+            ]
+          },
+          {
+            "name": "page.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "56ea797ce653e289d49e9f32f6ad2afcd9354be7"
+          },
+          {
+            "name": "sloyd",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b80df66435fadfa806198a095223742afdd28e7d"
+              }
+            ]
+          },
+          {
+            "name": "utils",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "supabaseAdmin.ts",
+                "type": "file",
+                "mode": 33206,
+                "uid": "12428dee98f99af08bda8fb2558d6ca34140409c"
+              }
+            ]
+          },
+          {
+            "name": "verify-success",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7ef14b6693f4279348605e66276bf080b6dfb730"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "public",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "favicon.ico",
+            "type": "file",
+            "mode": 33206,
+            "uid": "3dc4667c2f997409b440b52ea32847ac7cfa2650"
+          },
+          {
+            "name": ".env.example",
+            "type": "file",
+            "mode": 33206,
+            "uid": "719ff0dc8bc1eb7126ccb93ffcdf65009c6b31cc"
+          },
+          {
+            "name": ".eslintrc.json",
+            "type": "file",
+            "mode": 33206,
+            "uid": "f2f59a82f7befc1d8686525ac63ecb955bf9e5ea"
+          },
+          {
+            "name": ".gitattributes",
+            "type": "file",
+            "mode": 33206,
+            "uid": "ba3dfe345280bdcc5e817bb02cf49b8b8d8e1c4c"
+          },
+          {
+            "name": ".github",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "workflows",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "ci.yml",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "105965c5dd9726cffcb74c07eb2aaa9bbade5fb7"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": ".well-known",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "discord",
+                "type": "file",
+                "mode": 33206,
+                "uid": "3cd774f0d52b907cbb84bbe41cd88c0a8dc4515c"
+              }
+            ]
+          },
+          {
+            "name": "BloxSmithAI_Website.code-workspace",
+            "type": "file",
+            "mode": 33206,
+            "uid": "6874fba33a5edd16a2f27bb0162e3e44553f6c08"
+          },
+          {
+            "name": "LICENSE",
+            "type": "file",
+            "mode": 33206,
+            "uid": "eaa53016dd95398b5dde4484c5691ad0f6fb6f4e"
+          },
+          {
+            "name": "README.md",
+            "type": "file",
+            "mode": 33206,
+            "uid": "255eff8482f858606757dc0b75100aa61b7da0a6"
+          },
+          {
+            "name": "add_favicon.ps1",
+            "type": "file",
+            "mode": 33206,
+            "uid": "337d9bf6dd7973f2ba066e35c29b360da59c17b9"
+          },
+          {
+            "name": "api",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "admin-action.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "becab2e532578892aa2af327fab2c360bd26a560"
+              },
+              {
+                "name": "auth.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "476ce5b26963cb3086ccf417acbad4460c2a61eb"
+              },
+              {
+                "name": "auth",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "callback.js",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "b45bd185e3ee7e79acf435e5e3a331c3f3d03156"
+                  },
+                  {
+                    "name": "login.js",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "5f92d5924f66c3ed4aa25ed4cc56778cad695070"
+                  },
+                  {
+                    "name": "logout.js",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "183618ff87113b849f1cdd0c4917920a764476d9"
+                  },
+                  {
+                    "name": "user.js",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "766ba78b4b16101dd91c548163b7660e7775b07f"
+                  }
+                ]
+              },
+              {
+                "name": "avatar.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "bdee4164bce999a65936f4817bc1ba28b71f7934"
+              },
+              {
+                "name": "callback.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "1d2303aa1da557219d7acebe3fe5952adfea603b"
+              },
+              {
+                "name": "debug-env.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "d57abc621331de43b62865f90368da0d0b15160f"
+              },
+              {
+                "name": "send-announcement.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7dd443bc092e9f62a75388307fd123ecfbc801b2"
+              },
+              {
+                "name": "user",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "update-email.js",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "bc2c3044bad920f45a7711d7e4f54c50b6892182"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "boot_sequence.mp3",
+            "type": "file",
+            "mode": 33206,
+            "uid": "9ae2f815048b0e6e9ba71ee69c1193d4a4f47997"
+          },
+          {
+            "name": "darkmatter-icon.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "7b8df0910b0dc4d9439f33459acb0f1f2ef6300f"
+          },
+          {
+            "name": "darkmatter-robot.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "7b8df0910b0dc4d9439f33459acb0f1f2ef6300f"
+          },
+          {
+            "name": "database",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "schema.sql",
+                "type": "file",
+                "mode": 33206,
+                "uid": "f7cd3ff370762ca25b704239d58430ff040d41a3"
+              }
+            ]
+          },
+          {
+            "name": "fonts",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "Roblox2017-v6dO.ttf",
+                "type": "file",
+                "mode": 33206,
+                "uid": "671d64a1932fd2cf72489603a7b1102ffb60da13"
+              }
+            ]
+          },
+          {
+            "name": "footer_content.txt",
+            "type": "file",
+            "mode": 33206,
+            "uid": "7517e32d93b43cfe4ddaa69e12f20113f85a5aee"
+          },
+          {
+            "name": "games",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "anime_clash.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "87ee104c905ecd4e59daab407da56fcf9f019ee9"
+              },
+              {
+                "name": "anime_creatures.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "73c6c4672baf278a81500591e24a35d20d32756f"
+              },
+              {
+                "name": "zero_to_hero.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "73c6c4672baf278a81500591e24a35d20d32756f"
+              },
+              {
+                "name": "anime_destroyers.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "310dbb8718b95829a62cc51b24c6aec0175b4dfa"
+              },
+              {
+                "name": "anime_destroyers_new.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b0a83384378262f5dc404282b534e3e36ab3300d"
+              },
+              {
+                "name": "anime_ethereal_x.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "0747a1332f97475d9661d1a55386c63471d02fcd"
+              },
+              {
+                "name": "anime_finals.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b9044106b3760d6e4c7f4429ddb85d44efb4c9c3"
+              },
+              {
+                "name": "anime_ghost.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b0074d7d4021b851d056a654eb844863f228684d"
+              },
+              {
+                "name": "anime_storm_2.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "e228561e6bfbf5c80a55588863244d3a1f71de72"
+              },
+              {
+                "name": "anime_tactical_icon.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "8cf44887074175e80e6bc145426f45ec66cc9c9c"
+              },
+              {
+                "name": "anime_tactical_new.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "d3a7729d17f9134d6197f0897493c9b4204488af"
+              }
+            ]
+          },
+          {
+            "name": "js",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "admin-security.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "674e98caa85a0e244372a46b1b5db99c86eea747"
+              },
+              {
+                "name": "auth-modal.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "93f078dd7cd9abafa809587260895fc677f3d348"
+              },
+              {
+                "name": "forge-embers.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "3bb6ad52a15bf75ab972c7621ee3132d51859e6e"
+              },
+              {
+                "name": "legal-modal.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "de025364f00a5f682aabfb28011fd856095be882"
+              },
+              {
+                "name": "mobile-fix.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "d382b6ed1dcda16050d7471dcaba6523b3e6b2fc"
+              },
+              {
+                "name": "music-player.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "391c358550327e843d071d50e7f8bc75464db997"
+              },
+              {
+                "name": "navbar.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "2f248e922d91d2d9b8f1b7a5a993cf770dc8fbd4"
+              },
+              {
+                "name": "notifications.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "36ff8f46974024a15ef1eb9799a0c3651620e4c8"
+              },
+              {
+                "name": "supabase-client.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "efa08f3bcf74d191d56cde02f38657388e0171ac"
+              },
+              {
+                "name": "support-modal.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7331f65a3421167fe981f05c4e3f6eea370dd597"
+              },
+              {
+                "name": "translate.js",
+                "type": "file",
+                "mode": 33206,
+                "uid": "95b4ddfdb2e370fed8277c009d7d6c1490b6d89c"
+              }
+            ]
+          },
+          {
+            "name": "llms.txt",
+            "type": "file",
+            "mode": 33206,
+            "uid": "bb22eb39f9fed69762c9344684c9cea1d1b9115e"
+          },
+          {
+            "name": "manifest.json",
+            "type": "file",
+            "mode": 33206,
+            "uid": "40514a74cdaa2cd376456a1becee3913d4f67223"
+          },
+          {
+            "name": "nebu-guardian.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "2fb13edff6d35457538dd642df9ba55df7250509"
+          },
+          {
+            "name": "nebublox-logo.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "9fea75f3379448b8fc8bbf2826e81954dc4403a7"
+          },
+          {
+            "name": "nebublox_ad_hd.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "21632d39a53a37f91da7031d63e3f4fab510c5db"
+          },
+          {
+            "name": "nebula-base.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "4618a9f5f9630bde281938e6ebb2266dabe4aa51"
+          },
+          {
+            "name": "package-lock.json",
+            "type": "file",
+            "mode": 33206,
+            "uid": "946bfba69f830bbe65abc1a243f09e8141234422"
+          },
+          {
+            "name": "package.json",
+            "type": "file",
+            "mode": 33206,
+            "uid": "0d63aee5ce8389961cfa3198cb3b0f6524d84d8c"
+          },
+          {
+            "name": "robots.txt",
+            "type": "file",
+            "mode": 33206,
+            "uid": "7342e93e689af3d95342c63e82edb21c509b5cc7"
+          },
+          {
+            "name": "scripts",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "add_embers.ps1",
+                "type": "file",
+                "mode": 33206,
+                "uid": "5a21720d4eca9a4f2ddb619c39f0f434097267ed"
+              },
+              {
+                "name": "organize_folder.ps1",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a29585a6fe2310c9c45f6b92eb9294c2b39b95be"
+              },
+              {
+                "name": "propagate_emoji_logo.ps1",
+                "type": "file",
+                "mode": 33206,
+                "uid": "335e5af5faf1a81001b99cdfa676eaec1309f0e0"
+              },
+              {
+                "name": "propagate_footer.ps1",
+                "type": "file",
+                "mode": 33206,
+                "uid": "2a19daf4732580e892c91f901a555ba9cc97c81d"
+              },
+              {
+                "name": "propagate_nav.ps1",
+                "type": "file",
+                "mode": 33206,
+                "uid": "423c7b828fe4d4f3c6fd0071fa6fedfe20ca3e6b"
+              },
+              {
+                "name": "propagate_nav_emoji.ps1",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9906bd5887964ee933e31896491931782221d391"
+              },
+              {
+                "name": "propagate_nav_fix.ps1",
+                "type": "file",
+                "mode": 33206,
+                "uid": "22f7567274ae58c3a79da32704359d378f02552d"
+              }
+            ]
+          },
+          {
+            "name": "sitemap.xml",
+            "type": "file",
+            "mode": 33206,
+            "uid": "e04256c6ea323089f7e43b4a96bf4c593eb2aaa5"
+          },
+          {
+            "name": "supabase-translation-cache.sql",
+            "type": "file",
+            "mode": 33206,
+            "uid": "c1c957ec3fba55218ae2d29946b5982144781399"
+          },
+          {
+            "name": "sync_footer_from_pricing.ps1",
+            "type": "file",
+            "mode": 33206,
+            "uid": "412ec340429ecdf1e57609c0a20aaba0a52d576c"
+          },
+          {
+            "name": "vercel.json",
+            "type": "file",
+            "mode": 33206,
+            "uid": "27949d380f9f3b0c003db1a74dcc9fa959cf9bc1"
+          },
+          {
+            "name": "version.json",
+            "type": "file",
+            "mode": 33206,
+            "uid": "500ea1a90465a5cfc90223de5f51fe44ff0a887e"
+          }
+        ]
+      },
+      {
+        "name": "next-env.d.ts",
+        "type": "file",
+        "mode": 33206,
+        "uid": "021469f445ff4e0360bad1437841097a19e66416"
+      },
+      {
+        "name": "next.config.js",
+        "type": "file",
+        "mode": 33206,
+        "uid": "a27f4af0f741913cc6e49cebe2d19120e349805f"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "7c74a6c9e0e3814906e133c6d1327f651b175344"
+      },
+      {
+        "name": "package.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "1542de56ab6e628132449d85ae991132e60db32a"
+      },
+      {
+        "name": "postcss.config.js",
+        "type": "file",
+        "mode": 33206,
+        "uid": "eb8e9607b4836f6d536f6f738991e2f9f7f82c84"
+      },
+      {
+        "name": "tailwind.config.ts",
+        "type": "file",
+        "mode": 33206,
+        "uid": "0a5f2b9c8086fd427ab0b660f9c2ad35fea83e00"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "3be92c5859a6418a8bbf02e7ea650f30c62e84e2"
+      },
+      {
+        "name": "vercel.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "a83688906210d8872e1386e9d6ab40b1f50f749b"
+      }
+    ]
+  },
+  {
+    "name": "out",
+    "type": "directory",
+    "mode": 16749,
+    "children": [
+      {
+        "name": "_not-found",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-a36c5d27b6069cb64b22c3dac2268dde08"
+      },
+      {
+        "name": "_not-found.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-a36c5d27b6069cb64b22c3dac2268dde08"
+      },
+      {
+        "name": "getkey",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "getkey.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "legal",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "legal.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "index.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "index",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "sloyd",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "sloyd.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "verify-success",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "verify-success.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "index",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-fcc02c3a7b632b5c2448d64250784cc986"
+      },
+      {
+        "name": "api",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "auth",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "verify.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-e460f6411768fd3b560d16725ac748d3de"
+              },
+              {
+                "name": "verify",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-e460f6411768fd3b560d16725ac748d3de"
+              }
+            ]
+          },
+          {
+            "name": "oauth",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "discord",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "callback",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-d87b18246f7f5f5b1949f9ba11f562e0b1"
+                  },
+                  {
+                    "name": "callback.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-d87b18246f7f5f5b1949f9ba11f562e0b1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "icon.png.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_88jVkgLHVuPVCUm80LJEV0WZ-e460f6411768fd3b560d16725ac748d3de"
+      }
+    ]
+  }
+]
