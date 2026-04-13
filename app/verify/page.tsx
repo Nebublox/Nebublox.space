@@ -104,7 +104,7 @@ export default function VerifyPage() {
                         </div>
 
                         <h2 className="text-2xl font-bold text-white mb-4 tracking-wider uppercase" style={{ fontFamily: 'Orbitron' }}>
-                            Verification Protocol
+                            Junkie Verify
                         </h2>
 
                         <p className="text-gray-400 font-mono text-xs tracking-widest uppercase mb-8 max-w-md">
@@ -125,12 +125,12 @@ export default function VerifyPage() {
                             onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.boxShadow = '0 0 20px rgba(0, 255, 255, 0.3)'; }}
                         >
                             <Shield size={20} />
-                            Begin Verification
+                            Begin Junkie Verify
                             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                         </a>
 
                         <p className="mt-8 text-[10px] font-mono text-gray-500 uppercase tracking-widest">
-                            Powered by <span className="text-code-cyan">Jnkie</span> Verification Protocol
+                            Powered by <span className="text-code-cyan">Jnkie</span> Junkie Verify Protocol
                         </p>
                     </div>
                 </div>

@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const runtime = 'edge';
+
 const DISCORD_API = 'https://discord.com/api/v10';
 
 // Hardcoded Role IDs
@@ -21,7 +23,8 @@ export async function GET(request: Request) {
     }
 
     if (!code) {
-        successUrl.searchParams.set('error', 'no_code');
+        console.error('[VERIFY CALLBACK] Missing code/state parameter. URL:', url.toString());
+        successUrl.searchParams.set('error', 'missing_code_or_state');
         return NextResponse.redirect(successUrl.toString());
     }
 

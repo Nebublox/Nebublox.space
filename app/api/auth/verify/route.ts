@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const runtime = 'edge';
+
 export async function GET(request: Request) {
     const clientId = process.env.DISCORD_CLIENT_ID;
     const redirectUri = process.env.DISCORD_REDIRECT_URI;

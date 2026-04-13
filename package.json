@@ -2,6 +2,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "next lint",
     "backend": "cd backend && node server.js"

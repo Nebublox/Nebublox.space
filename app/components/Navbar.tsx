@@ -97,6 +97,17 @@ export default function Navbar() {
                     </Link>
 
                     {/* Divider */}
+                    {/* JUNKIE VERIFY */}
+                    <Link href="/verify" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                        <span className="text-[12px] font-mono uppercase tracking-[0.2em]" style={{ color: '#C0C0C0' }}>
+                            JUNKIE:
+                        </span>
+                        <span className="text-[12px] font-mono uppercase tracking-[0.2em]" style={{ color: 'var(--code-cyan)' }}>
+                            VERIFY
+                        </span>
+                    </Link>
+
+                    {/* Divider */}
                     <span className="animate-divider-pulse">|</span>
 
                     {/* STATUS */}
