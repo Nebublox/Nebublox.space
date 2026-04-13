@@ -6,7 +6,6 @@ import { Play } from 'lucide-react';
 import Image from 'next/image';
 import BootOverlay from './components/BootOverlay';
 import CinematicHero from './components/CinematicHero';
-import BlackHoleLogo from './components/BlackHoleLogo';
 import ScriptsGrid from './components/ScriptsGrid';
 import SystemFooter from './components/SystemFooter';
 import HologramAssistant from './components/HologramAssistant';
@@ -39,10 +38,14 @@ export default function HomePage() {
 
                     {/* Large Nebula Logo */}
                     <div
-                        className={`absolute opacity-20 pointer-events-none transition-opacity duration-1000 ${isBooted ? 'opacity-20' : 'opacity-0'}`}
-                        style={{ marginTop: '-100px' }}
+                        className={`absolute opacity-30 pointer-events-none transition-opacity duration-1000 ${isBooted ? 'opacity-30' : 'opacity-0'}`}
+                        style={{ marginTop: '-120px' }}
                     >
-                        <BlackHoleLogo size={400} />
+                        <img 
+                            src="/nebublox-logo.png" 
+                            alt="NEBUBLOX" 
+                            className="w-[800px] h-auto drop-shadow-[0_0_50px_rgba(157,0,255,0.4)]"
+                        />
                     </div>
 
                     {/* Purple Glow */}
